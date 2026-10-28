@@ -1,0 +1,7 @@
+# Netlify: cross-origin isolation lets the recognition model use several CPU cores (faster).
+# Caching of the model is handled by the service worker (sw.js).
+/*
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+  X-Content-Type-Options: nosniff
+  Permissions-Policy: camera=(self), microphone=(), geolocation=()
